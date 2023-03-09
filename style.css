@@ -1,0 +1,38 @@
+/* :root {
+  --primary-color: #ffcb1ebd;
+  --white: #ffffff;
+} */
+
+.gradient-background {
+  background: rgb(222, 96, 14);
+  background: linear-gradient(
+    133deg,
+    rgba(222, 96, 14, 0.9710083862646621) 0%,
+    rgba(255, 164, 0, 0.9598039044719451) 100%
+  );
+}
+
+.row-height {
+  height: 250px;
+}
+
+.dish-icon {
+  height: 50px;
+  width: 50px;
+  margin: 20px;
+}
+
+.card-bg {
+  background-image: url(https://www.photojaanic.com/blog/wp-content/uploads/sites/2/2017/07/food-photography-tips-photojaanic-3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  color: beige;
+}
+
+.card-bg:hover {
+  filter: grayscale(25%) sepia(37%) blur(2px) brightness(55%) saturate(145%);
+-webkit-filter: grayscale(25%) sepia(37%) blur(2px) brightness(55%) saturate(145%);
+-moz-filter: grayscale(25%) sepia(37%) blur(2px) brightness(55%) saturate(145%);
+}
+
+
