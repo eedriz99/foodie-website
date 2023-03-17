@@ -30,9 +30,14 @@
 }
 
 .card-bg:hover {
-  filter: grayscale(25%) sepia(37%) blur(2px) brightness(55%) saturate(145%);
--webkit-filter: grayscale(25%) sepia(37%) blur(2px) brightness(55%) saturate(145%);
--moz-filter: grayscale(25%) sepia(37%) blur(2px) brightness(55%) saturate(145%);
+  background-color: hsla(180, 2%, 10%, 0.521);
+  background-blend-mode: saturation;
 }
 
+.card-bg:hover .card-body {
+  z-index: 10;
+}
 
+.footer-link:hover {
+  border-bottom: 2px solid #fd6805;
+}
