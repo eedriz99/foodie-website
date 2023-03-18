@@ -13,7 +13,7 @@
 }
 
 .row-height {
-  height: 250px;
+  max-height: 10%;
 }
 
 .dish-icon {
@@ -40,4 +40,14 @@
 
 .footer-link:hover {
   border-bottom: 2px solid #fd6805;
+}
+
+.margin-right {
+  margin-right: 250px; !important
+  
+}
+
+.t-bg {
+  background-color: #ffffff00;
+  border: 0;
 }

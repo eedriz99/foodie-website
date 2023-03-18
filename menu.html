@@ -22,46 +22,63 @@
     <link rel="stylesheet" href="style.css" />
     <title>Foodie: Menu</title>
   </head>
-  <body>
+  <body class="gradient-background">
     <header>
       <nav
-        class="navbar navbar-dark bg-dark navbar-expand-lg navbar-colapse-sm p-2 justify-content-between"
+        class="navbar navbar-dark bg-dark navbar-expand-lg navbar-colapse-sm p-2 justify-content-lg-evenly"
       >
         <a href="/index.html" class="navbar-brand">Foodie.</a>
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a href="/menu.html" class="nav-link">Menu</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Specials</a>
-          </li>
-          <li class="nav-item">
-            <a href="/contact.html" class="nav-link">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Blog</a>
-          </li>
-        </ul>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-lg-end"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav margin-right">
+            <li class="nav-item">
+              <a href="/menu.html" class="nav-link"
+                ><i class="bi bi-card-list px-2"></i>Menu</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"
+                ><i class="bi bi-balloon-heart px-2"></i>Specials</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="/contact.html" class="nav-link"
+                ><i class="bi bi-telephone px-2"></i>Contact</a
+              >
+            </li>
+          </ul>
 
-        <form class="d-flex">
-          <input
-            class="form-control me-2"
-            type="search"
-            placeholder="Search..."
-            aria-label="Search"
-          />
-          <button class="btn btn-outline-warning" type="submit">
-            <i class="bi bi-search"></i>
-          </button>
-        </form>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search..."
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-warning" type="submit">
+              <i class="bi bi-search"></i>
+            </button>
+          </form>
+        </div>
       </nav>
     </header>
-    <div class="p-3 gradient-background">
-      <div class="row row-height my-1">
-        <div
-          class="col-lg-4 card text-center card-bg rounded-0 border border-2 border-dark"
-        >
-          <div class="card-body">
+    <div class="container overflow-hidden">
+      <div class="row row-cols-1 row-cols-lg-3 gy-2 gy-lg-4 py-4 row-height">
+        <div class="col card text-center t-bg ">
+          <div class="card-body card-bg">
             <img
               src="/images/dish-light.png"
               alt="dish icon"
@@ -71,10 +88,8 @@
           </div>
         </div>
 
-        <div
-          class="col-lg-4 card text-center card-bg rounded-0 border border-2 border-dark"
-        >
-          <div class="card-body">
+        <div class="col card text-center t-bg ">
+          <div class="card-body card-bg">
             <img
               src="/images/dish-light.png"
               alt="dish icon"
@@ -84,10 +99,8 @@
           </div>
         </div>
 
-        <div
-          class="col-lg-4 card text-center card-bg rounded-0 border border-2 border-dark"
-        >
-          <div class="card-body">
+        <div class="col card text-center t-bg ">
+          <div class="card-body card-bg">
             <img
               src="/images/dish-light.png"
               alt="dish icon"
@@ -96,12 +109,8 @@
             <p>Fast foods</p>
           </div>
         </div>
-      </div>
-      <div class="row row-height">
-        <div
-          class="col-lg-4 card text-center card-bg rounded-0 border border-2 border-dark"
-        >
-          <div class="card-body">
+        <div class="col card text-center t-bg ">
+          <div class="card-body card-bg">
             <img
               src="/images/dish-light.png"
               alt="dish icon"
@@ -111,10 +120,8 @@
           </div>
         </div>
 
-        <div
-          class="col-lg-4 card text-center card-bg rounded-0 border border-2 border-dark"
-        >
-          <div class="card-body">
+        <div class="col card text-center t-bg ">
+          <div class="card-body card-bg">
             <img
               src="/images/dish-light.png"
               alt="dish icon"
@@ -124,10 +131,8 @@
           </div>
         </div>
 
-        <div
-          class="col-lg-4 card text-center card-bg rounded-0 border border-2 border-dark"
-        >
-          <div class="card-body">
+        <div class="col card text-center t-bg ">
+          <div class="card-body card-bg">
             <img
               src="/images/dish-light.png"
               alt="dish icon"
